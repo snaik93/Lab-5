@@ -1,0 +1,182 @@
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start the Project 2 CSS */
+/* NAV bar, Title CSS*/
+
+body
+{
+  background-color: #324e54;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+	margin-top:20px;
+	font-size: 70px;
+	margin-top:20px;
+    font-family: 'Roboto', sans-serif;
+    color: #ede064;
+}
+
+tr:hover {
+  color:#05b1a2;
+}
+ 
+table
+{
+  text-align: center;
+  position: relative;
+  width:100%;
+  height: 100px;
+  color: #ccc;
+ }
+ 
+th {
+    text-align: center;   
+    color: #ede064;
+}
+
+td
+ {
+  border: 3px solid #000;
+ }
+ 
+
+#media
+{
+  overflow: auto;
+  width: 100%; 
+  }
+ 
+#name
+{
+  border-bottom: 3px solid black;
+  font:bold 40px Time New Roman,serif;
+  color: #ffd000;
+}
+
+#mass
+{
+  font:30px/50px Trebuchet MS,sans-serif;
+  text-align:center;
+  border: 3px solid #000;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+#dia
+{
+  font:30px Trebuchet MS,sans-serif;
+  text-align:center;
+  border: 3px solid #000;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+#den
+{ 
+  font:30px Trebuchet MS,sans-serif;
+  text-align:center;
+  border: 3px solid #000;
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+#vel
+{ 
+  font:30px Trebuchet MS,sans-serif;
+  text-align:center;
+  border: 3px solid #000;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#dist
+{ 
+  font:30px Trebuchet MS,sans-serif;
+  text-align:center;
+  border: 3px solid #000;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#rot
+{ 
+  font:30px Trebuchet MS,sans-serif;
+  text-align:center;
+  border: 3px solid #000;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#rev
+{ 
+  font:30px Trebuchet MS,sans-serif;
+  text-align:center;
+  border: 3px solid #000;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+sup { 
+  vertical-align: 10px;
+  font-size: smaller;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
